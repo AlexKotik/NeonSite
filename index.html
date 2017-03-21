@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/font-awesome.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"> 
+    <title>Женская кавер-группа NeOn Band</title>
+</head>
+<body>
+    <div class="navbar">
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#!" class="brand-logo">Женская кавер-группа NeOn Band</a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#Photo"/>ФОТО</a></li>
+                    <li><a href="#Band"/>О ГРУППЕ</a></li>
+                    <li><a href="#Video"/>ВИДЕО</a></li>
+                    <li><a href="#Raider"/>РАЙДЕР</a></li>
+                    <li><a href="#Contact"/>КОНТАКТЫ</a></li>
+                    <li>
+                        <a href="https://vk.com/neon_cover_band">
+                            <i class="fa fa-vk" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/channel/UCedl30VeVHUrUdML1DWFVnw">
+                            <i class="fa fa-youtube" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/neongirlsband/">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="component">
+        <div class="row" id="Photo">            
+            <div class="slider">
+                <ul class="slides">
+                    <li><img src="img/1.jpg"></li>
+                    <li><img src="img/2.jpg"></li>
+                    <li><img src="img/3.jpg"></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row" id="Band">
+            <div class="col s12 m3">
+                <div class="card lime darken-3">
+                    <div class="card-content white-text">
+                        <span class="card-title">Уникальный состав</span>
+                        <p>Только девушки и вставить текст сюда!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m3">
+                <div class="card red darken-3">
+                    <div class="card-content white-text">
+                        <span class="card-title">Лучшие хиты</span>
+                        <p>Лучшие хиты и вставить текст сюда!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m3">
+                <div class="card orange darken-3">
+                    <div class="card-content white-text">
+                        <span class="card-title">100% живой звук</span>
+                        <p>100% живой звук и вставить текст сюда!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m3">
+                <div class="card green darken-3">
+                    <div class="card-content white-text">
+                        <span class="card-title">Отличное настроение</span>
+                        <p>Отличное настроение и зажигательные танцы и вставить текст сюда!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="Video">
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/jJGQYqSTYhY" 
+                width="560" height="315" frameborder="0" allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+        <div class="row" id="Raider">
+            <h1>Райдер группы</h1>
+            <p>Вставить райдер сюда</p>
+        </div>
+        <div class="row" id="Contact">
+            <h1>Контакты группы</h1>
+            <p>Вставить контакты сюда</p>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/materialize.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.slider').slider({ 
+                fullWidth: true,
+                interval: 5000,
+                height: 800                
+            });
+        });        
+    </script>
+</body>
+</html>        
