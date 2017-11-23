@@ -1,171 +1,211 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
-    <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
-    <link type="text/css" rel="stylesheet" href="css/font-awesome.css"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"> 
-    <title>Женская кавер-группа NeOn Band</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Женская кавер-группа NeOn Band</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/mdb.min.css" rel="stylesheet">
 </head>
 <body>
-    <div class="navbar">
-        <nav>
-            <div class="nav-wrapper">
-                <a href="#!" class="brand-logo">Женская кавер-группа NeOn Band</a>
-                <ul class="right hide-on-med-and-down">
-                    <li><a href="#Photo"/>ФОТО</a></li>
-                    <li><a href="#Band"/>О ГРУППЕ</a></li>
-                    <li><a href="#Video"/>ВИДЕО</a></li>
-                    <li><a href="#Raider"/>РАЙДЕР</a></li>
-                    <li><a href="#Contact"/>КОНТАКТЫ</a></li>
-                    <li>
-                        <a href="https://vk.com/neongirlsband">
-                            <i class="fa fa-vk" aria-hidden="true"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.youtube.com/channel/UCedl30VeVHUrUdML1DWFVnw">
-                            <i class="fa fa-youtube" aria-hidden="true"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.instagram.com/neongirlsband/">
-                            <i class="fa fa-instagram" aria-hidden="true"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark red">
+    <a class="navbar-brand" href="#">Женская кавер-группа NeOn Band</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+      aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item"><a class="nav-link" href="#Photo"><b>ФОТО</b></a></li>
+        <li class="nav-item"><a class="nav-link" href="#Band"><b>О ГРУППЕ</b></a></li>
+        <li class="nav-item"><a class="nav-link" href="data/songs.pdf"><b>РЕПЕРТУАР</b></a></li>
+        <li class="nav-item"><a class="nav-link" href="#Video"><b>ВИДЕО</b></a></li>
+        <li class="nav-item dropdown red">
+          <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><b>РАЙДЕР</b></a>
+          <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="data/raid1.pdf">Технический райдер</a>
+            <a class="dropdown-item" href="data/raid2.pdf">Бытовой райдер</a>
+          </div>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="#Contact"><b>КОНТАКТЫ</b></a></li>
+      </ul>
+      <ul class="navbar-nav nav-flex-icons">
+        <li class="nav-item">
+          <a class="nav-link" href="https://vk.com/neongirlsband">
+            <i class="fa fa-vk"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.youtube.com/channel/UCedl30VeVHUrUdML1DWFVnw">
+            <i class="fa fa-youtube"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.instagram.com/neongirlsband/">
+            <i class="fa fa-instagram"></i>
+          </a>
+        </li>
+      </ul>
     </div>
+  </nav>
 
-    <div class="component">
-        <div class="row" id="Photo">
-            <div class="col s12">            
-                <div class="slider">
-                    <ul class="slides">
-                        <li><img src="img/1.jpg"></li>
-                        <li><img src="img/2.jpg"></li>
-                        <li><img src="img/3.jpg"></li>
-                    </ul>
-                </div>
+  <div class="container-fluid">
+    <section id="Photo">
+      <div class="row">
+        <div id="carousel-photos" class="carousel slide carousel-fade" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-photos" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-photos" data-slide-to="1"></li>
+            <li data-target="#carousel-photos" data-slide-to="2"></li>
+            <li data-target="#carousel-photos" data-slide-to="3"></li>
+            <li data-target="#carousel-photos" data-slide-to="4"></li>
+          </ol>
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="img/photo/01.jpg" alt="Первая фотка">
             </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="img/photo/02.jpg" alt="Вторая фотка">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="img/photo/03.jpg" alt="Третья фотка">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="img/photo/04.jpg" alt="Четвертая фотка">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="img/photo/05.jpg" alt="Пятая фотка">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carousel-photos" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Предыдущий</span>
+          </a>
+          <a class="carousel-control-next" href="#carousel-photos" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Следующий</span>
+          </a>
         </div>
-        <div class="row" id="Band">
-            <div class="col s12 m3">
-                <div class="card small lime darken-3">
-                    <div class="card-content white-text">
-                        <span class="card-title"><b>Уникальный состав!</b></span>
-                        <p>
-                            В состав NeOn band входят исключительно девушки. 
-                            Самая красивая группа Москвы. Украшение любого мероприятия.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 m3">
-                <div class="card small red darken-3">
-                    <div class="card-content white-text">
-                        <span class="card-title"><b>Лучшие хиты!</b></span>
-                        <p>
-                            Разнообразный репертуар, который включает в себя как современные,
-                            так и золотые хиты 70х, 80х и 90х, а так же авторские аранжировки
-                            и интересные миксы, под которые не возможно усидеть на месте.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 m3">
-                <div class="card small orange darken-3">
-                    <div class="card-content white-text">
-                        <span class="card-title"><b>Живой звук!</b></span>
-                        <p>
-                            Качественное живое исполнение, а следовательно 
-                            только живые эмоции и драйв. 
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 m3">
-                <div class="card small green darken-3">
-                    <div class="card-content white-text">
-                        <span class="card-title"><b>Отличное настроение!</b></span>
-                        <p>
-                            NeOn band никого не оставит равнодушным. Мы поможем 
-                            сделать ваше мероприятие незабываемым, зарядив Вас 
-                            и Ваших гостей позитивной энергией.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row" id="Video">
-            <div class="video-container">
-                <iframe src="https://www.youtube.com/embed/jJGQYqSTYhY" 
-                width="560" height="315" frameborder="0" allowfullscreen>
-                </iframe>
-            </div>
-        </div>
-        <div class="row center" id="Raider">
-            <h3>Технический и бытовой райдеры группы</h3>
-            <div class="col s12 m6">
-                <a href="pdf/raid1.pdf"><h5>Технический райдер группы</h5></a>
-            </div>
-            <div class="col s12 m6">
-                <a href="pdf/raid2.pdf"><h5>Бытовой райдер группы</h5></a>
-            </div>
-        </div>
-    </div>
+      </div>
+    </section>
+    
+    <section id="Band">
+      <br/><br/><br/>
 
-    <footer class="page-footer" id="Contact">
-        <div class="container">
-            <div class="row">
-                <div class="col l6 s12">
-                    <h5 class="white-text">Контакты группы:</h5>
-                    <p class="grey-text text-lighten-4"><b>
-                        Телефон: +7 906 737-93-97<br/>
-                        Email: neon.cover.band@mail.ru
-                    </b></p>
-                </div>
-                <div class="col l4 offset-l2 s12">
-                    <h5 class="white-text">Социальные сети:</h5>
-                    <ul>
-                        <li>
-                            <a href="https://vk.com/neongirlsband" class="grey-text text-lighten-4">
-                                <i class="fa fa-vk" aria-hidden="true"></i> ВКОНТАКТЕ
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.youtube.com/channel/UCedl30VeVHUrUdML1DWFVnw" class="grey-text text-lighten-4">
-                                <i class="fa fa-youtube" aria-hidden="true"></i> YOUTUBE
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.instagram.com/neongirlsband/" class="grey-text text-lighten-4">
-                                <i class="fa fa-instagram" aria-hidden="true"></i> INSTAGRAM
-                            </a>
-                        </li>
-                    </ul>
-                    <div class="evcInformer" id="eventcatalogWidget" data-widget-type="2" data-widget-hash="6d442e41400b43410bf1fb2dace800e9" data-resident-id="11635-ar"><div class="evcWrapper"><div class="evcRatingWrapper"><a href="http://eventcatalog.ru/artist/kaver_gruppy/" title="Кавер-группы для мероприятий на EventCatalog.ru"><img id="evcWidgetImage" class="evcWidgetImage" src="http://eventcatalog.ru/images/widgets/widget-type-2.png" alt="Кавер-группы для мероприятий на EventCatalog.ru"></a><script src="http://eventcatalog.ru/js/widget.js" type="text/javascript"></script></div></div></div>                  
-                </div>
+      <div class="row">
+        <div class="col-sm-12 col-md-3">
+          <div class="card">
+            <img class="img-fluid" src="img/photo/per1.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title">Уникальный состав!</h4>
+              <p class="card-text">
+                  В состав NeOn band входят исключительно девушки. 
+                  Самая красивая группа Москвы. Украшение любого мероприятия.
+              </p>
             </div>
+          </div>
         </div>
-        <div class="footer-copyright">
-            <div class="container">
-                © 2017 Кавер-группа NeOn Band
+
+        <div class="col-sm-12 col-md-3">
+          <div class="card">
+            <img class="img-fluid" src="img/photo/per2.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title">Лучшие хиты!</h4>
+              <p class="card-text">
+                  Разнообразный репертуар, который включает в себя как современные,
+                  так и золотые хиты 70х, 80х и 90х, а так же авторские аранжировки
+                  и интересные миксы, под которые не возможно усидеть на месте.
+              </p>
             </div>
+          </div>
         </div>
+        
+        <div class="col-sm-12 col-md-3">
+          <div class="card">
+            <img class="img-fluid" src="img/photo/per3.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title">Живой звук!</h4>
+              <p class="card-text">
+                  Качественное живое исполнение, а следовательно 
+                  только живые эмоции и драйв.
+              </p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-sm-12 col-md-3">
+          <div class="card">
+            <img class="img-fluid" src="img/photo/per4.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title">Отличное настроение!</h4>
+              <p class="card-text">
+                  NeOn band никого не оставит равнодушным. Мы поможем 
+                  сделать ваше мероприятие незабываемым, зарядив Вас 
+                  и Ваших гостей позитивной энергией.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="Video">
+      <br/><br/><br/>
+
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/jJGQYqSTYhY" allowfullscreen></iframe>
+      </div>
+    </section>
+    <br/>
+  </div>
+
+  <section id="Contact">
+    <footer class="page-footer red center-on-small-only">
+      <div class="container-fluid">
+        <div class="row">              
+          <div class="col-md-6">
+            <h5 class="title"><strong>КОНТАКТЫ ГРУППЫ:</strong></h5>
+            <p>
+              Телефон: +7 906 737-93-97<br/>
+              Email: neon.cover.band@mail.ru<br/><hr/>
+              <a href="data/songs.pdf">Скачать репертуар группы</a><br/>
+              <a href="data/raid1.pdf">Скачать технический райдер</a><br/>
+              <a href="data/raid2.pdf">Скачать бытовой райдер</a>
+            </p>
+          </div>
+          <div class="col-md-6">
+            <h5 class="title"><strong>ССЫЛКИ:</strong></h5>
+            <ul>
+              <li>
+                <a href="https://vk.com/neongirlsband">
+                  <i class="fa fa-vk"></i> ВКОНТАКТЕ
+                </a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/channel/UCedl30VeVHUrUdML1DWFVnw">
+                  <i class="fa fa-youtube"></i> YOUTUBE
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/neongirlsband/">
+                  <i class="fa fa-instagram"></i> INSTAGRAM
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container-fluid">
+          © 2017 Кавер-группа NeOn Band
+        </div>
+      </div>
     </footer>
+  </section>
 
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/materialize.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function() {
-            $('.slider').slider({ 
-                fullWidth: true,
-                interval: 5000,
-                height: 800                
-            });               
-        });        
-    </script>
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/mdb.min.js"></script>
 </body>
-</html>        
+</html>
